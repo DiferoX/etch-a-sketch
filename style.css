@@ -5,4 +5,22 @@
   display: grid;
   grid-template-columns: repeat(var(--grid-cols), 1fr);
   grid-template-rows: repeat(var(--grid-rows), 1fr);
+  border: 10px solid red;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.mainContainer
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.title
+{
+  padding: 20px;
+  text-align: center;
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
 }
