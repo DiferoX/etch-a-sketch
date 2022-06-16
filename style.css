@@ -56,3 +56,41 @@ button
   border-color: white;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
+
+.btnRGB
+{
+  background-image: linear-gradient(to top left, green, yellow, orange, red, violet, indigo, blue);
+  font-weight: bolder;
+}
+
+.btnRGB:hover
+{
+  background-image: linear-gradient(to left, green, yellow, orange, red, violet, indigo, blue);
+  font-weight: bolder;
+}
+
+.btnBlack
+{
+  color: white;
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.842), rgb(87, 87, 87));
+  font-weight: bolder;
+}
+
+.btnBlack:hover
+{
+  color: white;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.842), rgb(87, 87, 87));
+  font-weight: bolder;
+}
+
+.btnGray
+{
+  background-image: linear-gradient(to left, black, white, black, white);
+  font-weight: bolder;
+}
+
+.btnGray:hover
+{
+  background-image: linear-gradient(to right, black, white, black, white);
+  font-weight: bolder;
+}
