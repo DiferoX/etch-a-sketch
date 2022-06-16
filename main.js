@@ -33,7 +33,10 @@ btnSize[0].addEventListener('click', function()
   divs.forEach(divs => divs.classList.remove('permahover'));
   deleteDivs();
   let x = prompt('How many rows you want?');
-  createDivs (x, x);
+  if (x > 1 && x <= 100)
+  {
+    createDivs (x, x);
+  }
  
 });
 
@@ -49,7 +52,7 @@ btnBlack[0].addEventListener('click', function()
   }));
 });
 
-
+/*
 let btnRed = document.getElementsByClassName('btnRed');
 btnRed[0].addEventListener('click', function() 
 {
@@ -59,7 +62,7 @@ btnRed[0].addEventListener('click', function()
     divs.style.backgroundColor = 'red';
   }));
 });
-
+*/
 
 let btnRGB = document.getElementsByClassName('btnRGB');
 btnRGB[0].addEventListener('click', function() 
