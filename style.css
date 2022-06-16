@@ -1,12 +1,21 @@
+body
+{
+  background: url(images/sketch.png);
+  background-color: rgb(56, 52, 52);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 .board
 {
-  width: 500px;
-  height: 500px;
+  width: 690px;
+  height: 480px;
   display: grid;
   grid-template-columns: repeat(var(--grid-cols), 1fr);
   grid-template-rows: repeat(var(--grid-rows), 1fr);
-  border: 10px solid red;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+  
 }
 
 .mainContainer
@@ -20,7 +29,30 @@
 
 .title
 {
-  padding: 20px;
+  color: white;
+  padding: 0;
+  margin-bottom: 110px;
   text-align: center;
   text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+/*
+.sizeTxt
+{
+  padding: 0 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: white;
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+}
+*/
+
+button
+{
+  height: 50px;
+  width: 50px;
+  margin: 20px 15px;
+  border-radius: 50%;
+  border-color: white;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
